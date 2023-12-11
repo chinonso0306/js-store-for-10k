@@ -6,11 +6,11 @@
 }
 
 .first-1{
-    width: 90%;
+    width: 70%;
     height: 80vh;
     border: 3px solid red;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 3 0px;
     /* margin-left: 10%; */
     color: white;
     border-radius: 20px;
@@ -69,7 +69,7 @@ input:hover{
     }
 
     .first-1{
-        width: 60%;
+        width: 80%;
         height: 80vh;
         border: 3px solid red;
         margin-top: 50px;

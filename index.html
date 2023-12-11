@@ -9,7 +9,9 @@
 </head>
 <body>
     <div class="main-div">
+        <h1 style="color: white; text-align: center; margin-top: 2%;">A BUDGET APP</h1>
         <div class="first-1">
+           
 
             <div>
                 <img src="./868326.jpg" alt="">
@@ -17,6 +19,8 @@
             </div>
 
             <div class="inp">
+                <p style="color: white;"> YOUR TOTAL BUDGET FOR TODAY IS  ₦10000 </p> 
+                <div class="alert alert-danger p-2 text-center" style="display: none;" id="err">You can not spend more than ₦10000 per day</div>
                 <input type="text" placeholder="Item name" id="itemName1">
                 <input type="number" placeholder="Item prize" id="itemNumber1"><br><br>
                 <input type="text" placeholder="Item name" id="itemName2">
@@ -30,12 +34,9 @@
                 <button onclick="btn()"> check</button>
 
                 <div class="text">
-                    <p style="color: white;"> YOUR TOTAL BUDGET FOR TODAY IS  10000 </p>
-                    <p style="color: white;" id="p2">
-                        
-                    </p>
+                    <p style="color: white;" id="p2"></p>
                 </div>
-                
+
 
             </div>
 

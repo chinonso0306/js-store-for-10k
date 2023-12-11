@@ -6,7 +6,7 @@ function btn(){
         alert("all box can not be empty");
     } 
     else if(sum > 10000){
-        console.log("you can not spent more that 10000 per day")
+        err.style.display = "block" 
 
 
     } else{
